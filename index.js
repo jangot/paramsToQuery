@@ -21,6 +21,4 @@ var data = {
 }
 
 
-var query = paramsToQuery(data, 'http://ya.ru');
-
-console.log(query);
+console.log(paramsToQuery(data, 'http://ya.ru'));
